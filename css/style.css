@@ -1,0 +1,76 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 40px 0;
+    padding: 50px;
+    border: solid 2px;
+}
+
+h5 {
+    text-align: center;
+}
+
+@keyframes arr {
+    0%,
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    50% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px)
+    }
+}
+
+@keyframes arr-reverse {
+    0%,
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    50% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px)
+    }
+}
+
+@keyframes highlight {
+    100% {
+        background-position: 0 0, 0 0;
+    }
+}
+
+.third-challenge i {
+    display: inline-block;
+    -webkit-animation: arr 2s linear infinite;
+}
+
+.third-challenge p {
+    text-align: center;
+}
+
+.third-challenge .right {
+    animation: arr 2s linear infinite;
+}
+
+.third-challenge .left {
+    animation: arr-reverse 2s linear infinite;
+}
+
+.cat {
+    position: relative;
+    top: 10000px;
+    text-decoration: none;
+    color: black;
+}
+
+.cat:hover {
+    border-bottom: solid 1px;
+}

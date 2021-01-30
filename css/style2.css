@@ -1,0 +1,81 @@
+
+img {
+    max-width: 125px;
+}
+.dollars {
+    display: flex;
+}
+.fifty {
+    position: relative;
+}
+.fiftyfirst {
+    position: relative;
+}
+
+.fifty::before {
+    display: flex;
+        position: absolute;
+          top:-5px;
+          left:50px;
+          background-size:100% 100%;
+          width: 100px;
+          height: 40px;
+          margin: 2px;
+          content: ""; 
+          background-image: url("../assets/fivty.jpg");
+}
+.fiftyfirst::after {
+    display: flex;
+        position: absolute;
+          top:-2px;
+          right:30px;
+          background-size:100% 100%;
+          width: 100px;
+          height: 40px;
+          margin: 2px;
+          content: ""; 
+          background-image: url('../assets/fivty.jpg');
+          background-repeat: no-repeat;
+}
+.fourth-challenge {
+    background-image: url("../assets/ten.jpg");
+}
+.five-challenge {
+    position: relative;
+}
+.first {
+    z-index:1;
+    position: absolute;
+    top:90px
+}
+.second {
+    z-index:2;
+    position: absolute;
+}
+.six-challenge {
+    position: relative;
+}
+.topleft {
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.topright {
+    position: absolute;
+    top:0px;
+    right:0px
+}
+.bottomright {
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.bottomleft {
+    position: absolute;
+    bottom:left;
+    left:0px;
+}
+
+
+
+    
